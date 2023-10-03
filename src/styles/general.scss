@@ -1,0 +1,67 @@
+// fonts
+
+@font-face {
+    font-family: "Inter-Light";
+    src: url("../fonts/Inter-Light.woff2"), url("../fonts/Inter-Light.woff");
+    font-weight: 300;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Inter-Regular";
+    src: url("../fonts/Inter-Regular.woff2"), url("../fonts/Inter-Regular.woff");
+    font-weight: 400;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Inter-Medium";
+    src: url("../fonts/Inter-Medium.woff2"), url("../fonts/Inter-Medium.woff");
+    font-weight: 500;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Inter-SemiBold";
+    src: url("../fonts/Inter-SemiBold.woff2"), url("../fonts/Inter-SemiBold.woff");
+    font-weight: 7 00;
+    font-display: swap;
+  }
+  
+  
+  // colors 
+  
+  $b1: #1E1E1E;
+  $grey1: #999999;
+  $grey2: #F4F4F4;
+  $grey3: #A6A5C0;
+  $grey4: #FFFBFB;
+  $grey5: #EAEAEA;
+  $grey6: #EFEFEF;
+  $blue1: #3430FF;
+  $blue2: #5552FF;
+  $red1: #EE2424;
+  $white: #ffffff;
+  
+  
+  // gen styles 
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: 'Inter-Medium', sans-serif;
+    font-weight: 500;
+    background-color: $white;
+    color: $b1;
+    font-size: 13px;
+    line-height: 100%;
+    overflow: hidden;
+  }
+  
+  
