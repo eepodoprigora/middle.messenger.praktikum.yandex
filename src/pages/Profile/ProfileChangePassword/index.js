@@ -33,7 +33,6 @@ export const ProfileChangePassword = () => {
         SaveBtn: ProfileButton({
             button_type: 'submit',
             button_text: 'Сохранить',
-            button_nav: '/profile'
         })
     })
 }

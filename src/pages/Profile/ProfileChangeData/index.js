@@ -18,37 +18,38 @@ export const ProfileChangeData = () => {
         }),
         RowGenMail : ProfileRowChange({
             row_name: 'Почта',
-            placeholder: 'pochta@yandex.ru'
+            placeholder: 'pochta@yandex.ru',
+            input_name: 'email'
         }),
         RowGenLogin : ProfileRowChange({
             row_name: 'Логин',
-            placeholder: 'JohnyCat'
+            placeholder: 'JohnyCat',
+            input_name: 'login'
         }),
         RowGenFName : ProfileRowChange({
             row_name: 'Имя',
-            placeholder: 'Джони'
+            placeholder: 'Джони',
+            input_name: 'first_name'
         }),
         RowGenLName : ProfileRowChange({
             row_name: 'Фамилия',
-            placeholder: 'Пушистый'
+            placeholder: 'Пушистый',
+            input_name: 'second_name'
         }),
         RowGenChatName : ProfileRowChange({
             row_name: 'Имя в чате',
-            placeholder: 'Джони кот'
+            placeholder: 'Джони кот',
+            input_name: 'display_name'
         }),
         RowGenTel : ProfileRowChange({
             row_name: 'Телефон',
             placeholder: '+7 (909) 967 30 30',
+            input_name: 'phone',
             no_border: 'true'
         }),
         SaveBtn: ProfileButton({
             button_type: 'submit',
             button_text: 'Сохранить',
-            button_nav: '/profile'
         })
-        
-
-        
-
     })
 }

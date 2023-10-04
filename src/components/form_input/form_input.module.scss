@@ -7,21 +7,21 @@
     border-radius: 7px;
     box-shadow: 7px 6px 10px 0px #00000036 inset;
     padding: 7px 14px;
-  }
-  
-  .form__input_wrapper {
+}
+
+.form__input_wrapper {
     position: relative;
     width: 100%;
-  }
-  
-  .form__input_label {
+}
+
+.form__input_label {
     margin-bottom: 10px;
     display: inline-block;
     color: $grey1;
     font-size: 13px;
-  }
-  
-  .form__input_error {
+}
+
+.form__input_error {
     display: block;
     padding-top: 3px;
     padding-left: 8px;
@@ -34,13 +34,13 @@
     opacity: 0;
     pointer-events: none;
     transition: opacity .3s;
-  
+
     &.visible {
-      opacity: 1;
-      pointer-events: all;
+        opacity: 1;
+        pointer-events: all;
     }
-  }
-  
-  .mb_20 {
+}
+
+.mb_20 {
     margin-bottom: 20px;
-  }
+}

@@ -102,9 +102,6 @@ return Handlebars.compile(tmpl)({
     FormLink : FormLink({
         to: '/',
         text: 'Войти'
-
     })
-
-
 })
 }
