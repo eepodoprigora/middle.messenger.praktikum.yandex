@@ -1,0 +1,12 @@
+@import '../../styles/general.scss';
+
+
+.row__input {
+    border: none;
+    text-align: right;
+
+    &:focus, &:focus-visible  {
+        border: none;
+        outline: none;
+    }
+}

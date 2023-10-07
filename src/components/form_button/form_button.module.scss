@@ -1,0 +1,20 @@
+@import '../../styles/general.scss';
+
+.form__btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    margin-bottom: 17px;
+    background-color: $blue1;
+    color: $white;
+    box-shadow: -5px -5px 15px 0px #00000066 inset;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-top: auto;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
